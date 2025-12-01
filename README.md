@@ -71,7 +71,7 @@
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kaung Myat Kyaw**
+👤 **Austin Kniga Bartlett**
 
 - GitHub: [GitHub](https://github.com/Rhaegar121)
 - Twitter: [Twitter](https://twitter.com/Rhaegar121)

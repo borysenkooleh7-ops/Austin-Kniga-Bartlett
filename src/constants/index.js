@@ -1,5 +1,5 @@
 import {
-  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, carrental1, carrental2, carrental3, responsive, react, fullstack,
+  facebook, linkedin, medical, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, auroraMedical1, auroraMedical2, auroraMedical3, responsive, react, fullstack,
 } from '../assets';
 
 const social = [
@@ -135,15 +135,15 @@ const technologies = [
 
 const projects = [
   {
-    id: 1,
-    name: 'Car Rental App',
-    desc: 'The Car Rental App is a comprehensive full-stack application where you can seamlessly explore an array of cars, search by name, delve into comprehensive car details, make reservations when logged in, manage reservations, add or delete cars in the database, and personalize your profile with ease.',
-    tech: ['React', 'Redux', 'Ruby on Rails', 'PostgreSQL'],
-    img: carrental,
-    carousel: [carrental1, carrental2, carrental3],
-    source_link: 'https://github.com/Rhaegar121/Car-Rental-front-end',
-    live_link: 'https://car-rental121.netlify.app/',
-  },
+  id: 1,
+  name: 'Aurora Medical Platform',
+  desc: 'Aurora Medical is a full-stack healthcare platform where clinics can manage patients, appointments, and medical records in a modern, responsive interface. It includes secure authentication, role-based dashboards for doctors and staff, real-time updates for appointment status, and automated workflows to reduce manual admin work.',
+  tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL'],
+  img: medical, // main thumbnail image
+  carousel: [auroraMedical1, auroraMedical2, auroraMedical3],
+  source_link: 'https://github.com/your-username/aurora-medical-app',
+  live_link: 'https://www.auroramedical.com/',
+},
   {
     id: 2,
     name: 'Recipe App',

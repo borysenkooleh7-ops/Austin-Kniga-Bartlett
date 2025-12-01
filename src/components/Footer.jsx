@@ -43,7 +43,7 @@ const Footer = () => (
         {' '}
         <span className={style.span}>©</span>
         {' '}
-        Kaung Myat Kyaw
+        Austin Kniga Bartlett
       </a>
     </abbr>
   </motion.section>
