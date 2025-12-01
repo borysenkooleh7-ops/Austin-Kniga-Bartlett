@@ -151,7 +151,7 @@ const projects = [
     tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
     img: recipeapp,
     carousel: [recipeapp3, recipeapp4, recipeapp6],
-    source_link: 'https://github.com/Rhaegar121/Recipe-App',
+    source_link: 'https://github.com/https://github.com/borysenkooleh7-ops/Recipe-App/Recipe-App',
     live_link: 'https://recipe-app121-b8888e20687b.herokuapp.com/',
   },
   {
