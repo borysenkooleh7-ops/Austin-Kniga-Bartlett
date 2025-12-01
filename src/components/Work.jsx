@@ -34,21 +34,29 @@ const Work = () => {
             index={index}
             className={style.card}
           >
-            <img className={style.img} src={project.img} alt="project sample" loading="lazy" />
-            <div className={style.card_overlay}>
-              <div className={style.card_text}>
-                <div className={style.text}>
-                  <h2 className={style.name}>{project.name}</h2>
-                  <p className={style.tech}>
-                    {project.tech.map((i) => (
-                      <span key={i} className={style.tech_list}>{`#${i}`}</span>
-                    ))}
-                  </p>
+            {/* Image Section with Hover Overlay */}
+            <div className={style.card_image_wrapper}>
+              <img className={style.img} src={project.img} alt="project sample" loading="lazy" />
+              <div className={style.card_overlay}>
+                <div className={style.card_text}>
+                  <button type="button" className={style.btn_container} onClick={() => handlePopupClick(project)}>
+                    <span className={style.btn_hover}>Learn more</span>
+                    <span className={style.btn}>Learn more</span>
+                  </button>
                 </div>
-                <button type="button" className={style.btn_container} onClick={() => handlePopupClick(project)}>
-                  <span className={style.btn_hover}>Learn more</span>
-                  <span className={style.btn}>Learn more</span>
-                </button>
+              </div>
+            </div>
+            {/* Info Section - Always Visible */}
+            <div className={style.card_info}>
+              <h3 className={style.info_name}>{project.name}</h3>
+              <p className={style.info_desc}>{project.desc}</p>
+              <div className={style.info_tech}>
+                {project.tech.slice(0, 4).map((tech) => (
+                  <span key={tech} className={style.info_tech_tag}>{tech}</span>
+                ))}
+                {project.tech.length > 4 && (
+                  <span className={style.info_tech_more}>+{project.tech.length - 4}</span>
+                )}
               </div>
             </div>
           </motion.div>
