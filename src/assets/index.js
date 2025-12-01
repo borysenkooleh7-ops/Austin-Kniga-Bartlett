@@ -46,9 +46,6 @@ import recipeapp6 from './carousels/recipe app screenshot 6.png';
 import trackbuget1 from './carousels/track budget screenshot 1.png';
 import trackbuget2 from './carousels/track budget screenshot 2.png';
 import trackbuget5 from './carousels/track budget screenshot 5.png';
-import carrental1 from './carousels/car rental screenshot 1.png';
-import carrental2 from './carousels/car rental screenshot 2.png';
-import carrental3 from './carousels/car rental screenshot 3.png';
 import auroraMedical1 from "./carousels/medical screen shot 1.png";
 import auroraMedical2 from "./carousels/medical screen shot 2.png";
 import auroraMedical3 from "./carousels/medical screen shot 3.png";
@@ -58,5 +55,5 @@ import react from './services/react.gif';
 import fullstack from './services/fullstack.gif';
 
 export {
-  logo, light, medical, auroraMedical1, auroraMedical2, auroraMedical3, dark, facebook, instagram, github, linkedin, twitter, facebook1, instagram1, github1, twitter1, linkedin1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, carrental1, carrental2, carrental3, responsive, react, fullstack,
+  logo, light, medical, auroraMedical1, auroraMedical2, auroraMedical3, dark, facebook, instagram, github, linkedin, twitter, facebook1, instagram1, github1, twitter1, linkedin1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, responsive, react, fullstack,
 };
