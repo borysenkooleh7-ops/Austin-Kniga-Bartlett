@@ -23,7 +23,7 @@ const Home = () => (
         Also known as
         {' '}
         <motion.span variants={fadeIn('', '', 0.3, 1)} className={style.name}>
-          Barry
+          Austin
         </motion.span>
       </p>
       <motion.p variants={fadeIn('', '', 0.5, 1)} className={style.desc}>

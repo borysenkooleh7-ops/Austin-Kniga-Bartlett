@@ -19,7 +19,7 @@ const About = () => (
           className={style.link}
           rel="noreferrer"
         >
-          Austin Kniga Bartlett (Barry),
+          Austin Kniga Bartlett (Austin),
         </a>
         {' '}
         I'm a senior full stack software engineer with a passion for creative problem-solving and a strong record of delivering high-quality products.I specialize in JavaScript and Typescript, and I'm experienced with frameworks like React, Next.js, Redux, React Native, 
