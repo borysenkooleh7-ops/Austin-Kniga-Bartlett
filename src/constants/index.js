@@ -151,7 +151,7 @@ const projects = [
     tech: ['Ruby', 'Ruby on Rails', 'PostgreSQL'],
     img: recipeapp,
     carousel: [recipeapp3, recipeapp4, recipeapp6],
-    source_link: 'https://github.com/https://github.com/borysenkooleh7-ops/Recipe-App/Recipe-App',
+    source_link: 'https://github.com/borysenkooleh7-ops/Recipe-App',
     live_link: 'https://recipe-app121-b8888e20687b.herokuapp.com/',
   },
   {
@@ -161,7 +161,7 @@ const projects = [
     tech: ['HTML5', 'CSS3', 'JavaScript', 'TVmaze API'],
     img: tvshowbox,
     carousel: [tvshow1, tvshow2, tvshow3],
-    source_link: 'https://github.com/Rhaegar121/TVshows_Box',
+    source_link: 'https://github.com/borysenkooleh7-ops/TVshows_Box',
     live_link: 'https://tvshowbox.netlify.app/',
   },
   {
