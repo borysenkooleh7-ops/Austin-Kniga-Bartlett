@@ -141,7 +141,7 @@ const projects = [
   tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'PostgreSQL'],
   img: medical, // main thumbnail image
   carousel: [auroraMedical1, auroraMedical2, auroraMedical3],
-  source_link: 'https://github.com/your-username/aurora-medical-app',
+  source_link: 'https://github.com/borysenkooleh7-ops/aurora-medical-app',
   live_link: 'https://www.auroramedical.com/',
 },
   {
