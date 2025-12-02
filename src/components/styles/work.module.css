@@ -1,5 +1,11 @@
 /* Work Section Styles */
 
+.work_section {
+  position: relative;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
 .header {
   text-align: center;
   margin-bottom: 60px;

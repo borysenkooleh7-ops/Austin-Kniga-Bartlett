@@ -6,6 +6,7 @@ import { projects } from '../constants';
 import { textVariant } from '../utils/motion';
 import Popup from './Popup';
 import ProjectCard from './ProjectCard';
+import ParticlesBackground from './ParticlesBackground';
 
 const Work = () => {
   const [isOpen, setOpen] = useState(false);
@@ -22,7 +23,10 @@ const Work = () => {
   };
 
   return (
-    <div className="relative">
+    <div className={style.work_section}>
+      {/* Animated Background */}
+      <ParticlesBackground />
+
       <motion.div variants={textVariant()} className={style.header}>
         <span className={style.subtitle}>Portfolio</span>
         <h1 className={style.title}>My Recent Works</h1>
